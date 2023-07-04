@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLOTHESHUB</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/logo.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand ms-2 ms-md-4" href="#">
+        <img src="img/logo.jpg" alt="Logo" height="50">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" style="margin-left: 5px; color: #000000;" href="#">HOME</a>
+          </li>
+          <div class="vr"></div>
+          <li class="nav-item">
+            <a class="nav-link" style="margin-left: 10px; color: #000000; margin-right: 10px;" href="product.html">PRODUCTS</a>
+          </li>
+          <div class="vr"></div>
+          <li class="nav-item">
+            <a class="nav-link" style="margin-left: 5px; color:#000000" href="#about">ABOUT</a>
+          </li>
+        </ul>
+        <a class="navbar-brand ms-2 ms-md-4" href="cart.html">
+          <img src="img/cart.png" alt="Cart" height="40" width="60">
+        </a>
+      </div>
+    </div>
+  </nav>
+
+    <div style="margin-bottom: 80px;">
+    </div>
+
+    <div class="container" style="background-color: #fff; ">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="text-center mt-4">
+                    <h1 style="color: #333; font-size: 36px; font-weight: bold;">Welcome to CLOTHESHUB!</h1>
+                    <p style="color: #777; font-size: 18px; margin-top: px;">Discover the latest trends and shop your favorite styles.</p>
+                </div>
+            </div>
+        </div>
+    </div>     
+
+    <div class="carousel-container">
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner rounded">
+                <div class="carousel-item active">
+                    <img src="img/slider1.jpg" alt="Slide 1" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/slider2.jpg" alt="Slide 2" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/slider3.jpg" alt="Slide 3" class="d-block w-100">
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 style="margin-top: 40px; font-weight: bold;">FEATURED</h3>
+            </div>
+        </div>
+
+        <div class="row" id="item-container">
+        </div>
+    </div>
+
+    
+  <div id="about" class="container-fluid p-0">
+    <div class="row">
+        <div class="col-12" style="background-color: #2b2e2d; position: relative; color: #fff;">
+            <div class="about-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 110%; background-color: #2b2e2d; z-index: -1;"></div>
+            <div class="about-content text-center" style="padding: 100px 0;">
+                <h1 class="display-4 about-title" style="margin-bottom: 30px; font-weight: bold;">ABOUT</h1>
+                <p class="lead" style="margin-bottom: 20px;">Welcome to Clothes Hub, where comfort and style converge with fashion! We are dedicated about assisting you in using your clothing choices to reflect your distinctive individuality. At our shop, we think that fashion is more than just keeping up with the latest trends; it's about making a statement about yourself.</p>
+                <p class="lead" style="margin-bottom: 20px;">Our staff of passionate fashion lovers is ready to help you choose the ideal outfit for any situation. We have a variety of options to suit your style and preferences, whether you're looking for a chic ensemble for a special occasion, a casual and comfortable dress for everyday use, or a sophisticated professional attire.</p>
+                <p class="lead" style="margin-bottom: 20px;">Purchasing from us means not only getting top-notch goods but also going through a safe and simple process. We provide several payment methods and ensure the security of your personal data.</p>
+                <p class="lead" style="margin-bottom: 20px;">Explore the newest trends from the comfort of your home by becoming a member of our fashion-forward community today. By often updating our inventory and running fun specials all year long, we are dedicated to making your online shopping experience as delightful as we can.</p>
+            </div>
+        </div>
+    </div>
+  </div>
+    
+    <div class="modal fade" id="itemModal" tabindex="-1" aria-labelledby="itemModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="itemModalLabel">Item Details</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="modal-body">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/item.js"></script>
+</body>
+
+</html>
